@@ -1,0 +1,71 @@
+---
+layout: default    
+---
+
+<main class="container">
+  <h2>{{ page.title | default: "Ryan vs Ryan: Liquid Table Demo" }}</h2>
+
+  <table id="ryan-v-ryan">
+    <thead>
+      <tr>
+        <th><h3>Ryan Reynolds</h3></th>
+        <th><h3>Ryan Gosling</h3></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <!-- Reynolds -->
+        <td>
+          <h4>Strengths</h4>
+          <ul>
+            {% for item in page.reynolds.strengths %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+
+          <br>
+
+          <h4>Weaknesses</h4>
+          <ul>
+            {% for item in page.reynolds.weaknesses %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </td>
+
+        <!-- Gosling -->
+        <td>
+          <h4>Strengths</h4>
+          <ul>
+            {% for item in page.gosling.strengths %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+
+          <br>
+
+          <h4>Weaknesses</h4>
+          <ul>
+            {% for item in page.gosling.weaknesses %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  {% if page.image %}
+    <p><img src="{{ page.image | relative_url }}" alt="Ryan vs Ryan" /></p>
+  {% endif %}
+
+  {{ content }}
+</main>
+
+<style>
+  #ryan-v-ryan { border-collapse: collapse; width: 100%; max-width: 900px; }
+  #ryan-v-ryan th, #ryan-v-ryan td { vertical-align: top; padding: 12px 16px; }
+  #ryan-v-ryan thead h3 { margin: 0; }
+  #ryan-v-ryan h4 { margin: 0 0 6px; }
+</style>
