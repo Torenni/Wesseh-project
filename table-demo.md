@@ -1,4 +1,4 @@
---- 
+---
 layout: liquid-table
 title: "amiright?"
 reynolds:
@@ -21,7 +21,8 @@ gosling:
     - not ryan reynolds
 ---
 
-![Ryan vs Ryan]({{ site.baseurl }}/assets/img/ryan-v-ryan.jpg){:.demo-img}
+
+![]({{ site.baseurl }}/assets/img/ryan-v-ryan.jpg)
 
 <style>
 /* Page-local styles for the image; safe to keep here */
