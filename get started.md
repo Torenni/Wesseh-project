@@ -1,4 +1,4 @@
----
+ ---
 layout: page
 title: Getting Started
 permalink: /getstarted/
@@ -7,13 +7,13 @@ permalink: /getstarted/
 <style>
 /* Section-specific styles */
 .gs-section-01 h3 { color: red; }
-.gs-section-01 p  { font-size: 18px; }
+.gs-section-01 p { font-size: 18px; }
 
 .gs-section-02 h3 { color: blue; }
-.gs-section-02 p  { font-style: italic; }
+.gs-section-02 p { font-style: italic; }
 
-.gs-section-03 h3 { color: #008A5A; }
-.gs-section-03 p  { text-decoration: underline; }
+.gs-section-03 h3 { color: green; }
+.gs-section-03 p { text-decoration: underline; }
 </style>
 
 # Build your website in 3 steps
@@ -24,12 +24,13 @@ Even if you choose to use one of the [advanced installation methods](https://bea
 
 ## The easy way (recommended!)
 
-Getting started is *literally* as easy as 1-2-3 😄
+Getting started is *literally* as easy as 1-2-3 :smile:
 
 Scroll down to see the steps involved, but here is a 30-second video just as a reference as you work through the steps. If you don't already have a [GitHub account](https://github.com), you'll need to sign up.
 
 ![Installation steps](https://beautifuljekyll.com/assets/img/install-steps.gif)
 
+<!-- ========= STEP 1 WRAPPER ========= -->
 <div class="gs-section-01" markdown="1">
 
 ### 1. Fork this project
@@ -37,7 +38,9 @@ Scroll down to see the steps involved, but here is a 30-second video just as a r
 Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.
 
 </div>
+<!-- ========= END STEP 1 WRAPPER ========= -->
 
+<!-- ========= STEP 2 WRAPPER ========= -->
 <div class="gs-section-02" markdown="1">
 
 ### 2. Rename the repository to `YOURUSERNAME.github.io`
@@ -47,17 +50,19 @@ You'll see the word "repository" used a lot in GitHub - it simply means "project
 > Tip: If you want to use a different URL for your website, check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain)
 
 </div>
+<!-- ========= END STEP 2 WRAPPER ========= -->
 
+<!-- ========= STEP 3 WRAPPER ========= -->
 <div class="gs-section-03" markdown="1">
 
 ### 3. Customize your website settings
 
-Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  
-The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
+Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
 
 > Note: In the video above, only one setting in the `_config.yml` file is edited, but you should go through the rest of the settings as well.
 
 </div>
+<!-- ========= END STEP 3 WRAPPER ========= -->
 
 ### 4. Congratulations! You have a website!
 
