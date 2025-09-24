@@ -1,25 +1,26 @@
 ---
-layout: liquid-table
+layout: default
 title: 'amiright?'
 reynolds:
   strengths:
-  - good father
-  - funny
-  - dated alanis morissette
+    - good father
+    - funny
+    - dated alanis morissette
   weaknesses: 
-  - singing
-  - green lantern movie
-  - tennis backhand 
+    - singing
+    - green lantern movie
+    - tennis backhand 
 gosling:
   strengths: 
-  - builds houses
-  - is a real boy
-  - never dated alanis morissette
+    - builds houses
+    - is a real boy
+    - never dated alanis morissette
   weaknesses: 
-  - micky mouse club
-  - cries a lot
-  - not ryan reynolds
+    - micky mouse club
+    - cries a lot
+    - not ryan reynolds
 ---
+
 
 ![Ryan vs Ryan]({{ site.baseurl }}/assets/img/ryan-v-ryan.jpg){:.demo-img}
 
