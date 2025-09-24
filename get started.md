@@ -4,17 +4,11 @@ title: Getting Started
 permalink: /getstarted/
 ---
 
-<div class="pretty-text">
-
 # Build your website in 3 steps
 
 There are a few different ways to build a website using Beautiful Jekyll, and this document will go through the simplest one: using a fork on GitHub. For most people (including myself!), this easy method is the recommended one.
 
 Even if you choose to use one of the [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard), I still suggest you read through the easy method first.
-
----
-
-<div class="gs-section-01">
 
 ## The easy way (recommended!)
 
@@ -24,15 +18,15 @@ Scroll down to see the steps involved, but here is a 30-second video just as a r
 
 ![Installation steps](https://beautifuljekyll.com/assets/img/install-steps.gif)
 
+<div class="gs-section-01" markdown="1">
+
 ### 1. Fork this project
 
 Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.
 
 </div>
 
----
-
-<div class="gs-section-02">
+<div class="gs-section-02" markdown="1">
 
 ### 2. Rename the repository to `YOURUSERNAME.github.io`
 
@@ -42,9 +36,7 @@ You'll see the word "repository" used a lot in GitHub - it simply means "project
 
 </div>
 
----
-
-<div class="gs-section-03">
+<div class="gs-section-03" markdown="1">
 
 ### 3. Customize your website settings
 
@@ -54,13 +46,9 @@ Edit the `_config.yml` file to change any settings you want. To edit the file, f
 
 </div>
 
----
-
 ### 4. Congratulations! You have a website!
 
 If you named your project correctly and made an edit to the config file, your website should be ready in a minute or two at `https://YOURUSERNAME.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
-
----
 
 ## The harder way (for advanced users)
 
@@ -68,10 +56,9 @@ The instructions above explain how to use Beautiful Jekyll in the easiest way: b
 
 > Note: Beautiful Jekyll was primarily designed to be used as a GitHub theme, so you will not get any support if you use this theme via Ruby gems.
 
-</div> <!-- close pretty-text wrapper -->
-
 ---
 
+{% raw %}
 <style>
 /* Pretty-text wrapper */
 .pretty-text {
@@ -122,3 +109,4 @@ The instructions above explain how to use Beautiful Jekyll in the easiest way: b
   text-decoration: underline;
 }
 </style>
+{% endraw %}
