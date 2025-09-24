@@ -5,60 +5,75 @@ permalink: /getstarted/
 ---
 
 <div class="gs-section-01">
-  <h2>Build your website in 3 steps</h2>
 
-  <p>
-  There are a few different ways to build a website using Beautiful Jekyll, and this document will go through the simplest one: using a fork on GitHub. For most people (including myself!), this easy method is the recommended one.
-  </p>
+# Build your website in 3 steps
 
-  <p>
-  Even if you choose to use one of the <a href="https://beautifuljekyll.com/getstarted/#install-steps-hard">advanced installation methods</a>, I still suggest you read through the easy method first.
-  </p>
+There are a few different ways to build a website using Beautiful Jekyll, and this document will go through the simplest one: using a fork on GitHub. For most people (including myself!), this easy method is the recommended one.
+
+Even if you choose to use one of the [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard), I still suggest you read through the easy method first.
+
 </div>
 
 <div class="gs-section-02">
-  <h2>The easy way (recommended!)</h2>
 
-  <p>
-  Getting started is <em>literally</em> as easy as 1–2–3 😄
-  </p>
+## The easy way (recommended!)
 
-  <p>
-  Scroll down to see the steps involved, but here is a 30-second video just as a reference as you work through the steps. If you don't already have a <a href="https://github.com">GitHub account</a>, you'll need to sign up.
-  </p>
+Getting started is *literally* as easy as 1-2-3 😁
 
-  ![Installation steps](https://beautifuljekyll.com/assets/img/install-steps.gif)
+Scroll down to see the steps involved, but here is a 30-second video just as a reference as you work through the steps. If you don't already have a [GitHub account](https://github.com), you'll need to sign up.
+
+![Installation steps](https://beautifuljekyll.com/assets/img/install-steps.gif)
+
+### 1. Fork this project
+
+Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.
+
+### 2. Rename the repository to `YOURUSERNAME.github.io`
+
+You'll see the word "repository" used a lot in GitHub - it simply means "project". Under __*Repository name*__ you should see the name `beautiful-jekyll`, this is where you need to rename your project to `YOURUSERNAME.github.io` (replace `YOURUSERNAME` with your GitHub user name). It's important to use this exact name so that GitHub will recognize it and automatically create a website for this project.   
+
+> Tip: If you want to use a different URL for your website, check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain)
+ 
+### 3. Customize your website settings
+
+Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
+
+> Note: In the video above, only one setting in the `_config.yml` file is edited, but you should go through the rest of the settings as well.
+
+### 4. Congratulations! You have a website!
+
+If you named your project correctly and made an edit to the config file, your website should be ready in a minute or two at `https://YOURUSERNAME.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
+
 </div>
 
 <div class="gs-section-03">
-  <h3>1. Fork this project</h3>
-  <p>
-  Click on the <strong>Fork</strong> button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the <strong>Create fork</strong> button on the next page yet.
-  </p>
 
-  <h3>2. Rename the repository to <code>YOURUSERNAME.github.io</code></h3>
-  <p>
-  You'll see the word "repository" used a lot in GitHub – it simply means "project". Under <strong>Repository name</strong> you should see the name <code>beautiful-jekyll</code>. This is where you need to rename your project to <code>YOURUSERNAME.github.io</code> (replace <code>YOURUSERNAME</code> with your GitHub username).
-  </p>
+## The harder way (for advanced users)
 
-  <h3>3. Customize your website settings</h3>
-  <p>
-  Edit the <code>_config.yml</code> file to change any settings you want. To edit the file, click on it, then click the pencil icon to edit. After changing the settings, click the green <strong>Commit changes</strong> button to save.
-  </p>
+The instructions above explain how to use Beautiful Jekyll in the easiest way: by forking on GitHub. There are more [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard) that include either using GitHub Pages with remote themes, or using Ruby gems. They provide you with more control, but are only intended for advanced users.
 
-  <h3>4. Congratulations! You have a website!</h3>
-  <p>
-  If you named your project correctly and made an edit to the config file, your site should be ready in a minute or two at <code>https://YOURUSERNAME.github.io</code>.
-  </p>
+> Note: Beautiful Jekyll was primarily designed to be used as a GitHub theme, so you will not get any support if you use this theme via Ruby gems.
+
 </div>
 
----
-
-<!-- Custom styles for this page -->
 <style>
-.gs-section-01 h2 { color: red; }
-.gs-section-02 h2 { color: blue; }
-.gs-section-02 p { font-style: italic; }
-.gs-section-03 h3 { color: green; }
-.gs-section-03 p { text-decoration: underline; }
+  .gs-section-01 h1 {
+    color: red;
+  }
+
+  .gs-section-02 h2 {
+    color: blue;
+  }
+
+  .gs-section-02 p {
+    font-style: italic;
+  }
+
+  .gs-section-03 h2 {
+    color: green;
+  }
+
+  .gs-section-03 p {
+    text-decoration: underline;
+  }
 </style>
