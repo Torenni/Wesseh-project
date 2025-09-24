@@ -11,6 +11,9 @@ title: Haven's Project Website
 # Your name to show in the footer
 author: Some Person
 
+url: "https://torenni.github.io"
+baseurl: "/Wesseh-project"
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
