@@ -4,7 +4,7 @@ title: Getting Started
 permalink: /getstarted/
 ---
 
-<div class="gs-section-01">
+<div class="pretty-text">
 
 # Build your website in 3 steps
 
@@ -12,13 +12,13 @@ There are a few different ways to build a website using Beautiful Jekyll, and th
 
 Even if you choose to use one of the [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard), I still suggest you read through the easy method first.
 
-</div>
+---
 
-<div class="gs-section-02">
+<div class="gs-section-01">
 
 ## The easy way (recommended!)
 
-Getting started is *literally* as easy as 1-2-3 😁
+Getting started is *literally* as easy as 1-2-3 😄
 
 Scroll down to see the steps involved, but here is a 30-second video just as a reference as you work through the steps. If you don't already have a [GitHub account](https://github.com), you'll need to sign up.
 
@@ -28,25 +28,39 @@ Scroll down to see the steps involved, but here is a 30-second video just as a r
 
 Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.
 
+</div>
+
+---
+
+<div class="gs-section-02">
+
 ### 2. Rename the repository to `YOURUSERNAME.github.io`
 
 You'll see the word "repository" used a lot in GitHub - it simply means "project". Under __*Repository name*__ you should see the name `beautiful-jekyll`, this is where you need to rename your project to `YOURUSERNAME.github.io` (replace `YOURUSERNAME` with your GitHub user name). It's important to use this exact name so that GitHub will recognize it and automatically create a website for this project.   
 
 > Tip: If you want to use a different URL for your website, check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain)
- 
+
+</div>
+
+---
+
+<div class="gs-section-03">
+
 ### 3. Customize your website settings
 
 Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
 
 > Note: In the video above, only one setting in the `_config.yml` file is edited, but you should go through the rest of the settings as well.
 
+</div>
+
+---
+
 ### 4. Congratulations! You have a website!
 
 If you named your project correctly and made an edit to the config file, your website should be ready in a minute or two at `https://YOURUSERNAME.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
 
-</div>
-
-<div class="gs-section-03">
+---
 
 ## The harder way (for advanced users)
 
@@ -54,26 +68,57 @@ The instructions above explain how to use Beautiful Jekyll in the easiest way: b
 
 > Note: Beautiful Jekyll was primarily designed to be used as a GitHub theme, so you will not get any support if you use this theme via Ruby gems.
 
-</div>
+</div> <!-- close pretty-text wrapper -->
+
+---
 
 <style>
-  .gs-section-01 h1 {
-    color: red;
-  }
+/* Pretty-text wrapper */
+.pretty-text {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+}
 
-  .gs-section-02 h2 {
-    color: blue;
-  }
+.pretty-text p {
+  line-height: 1.6;
+}
 
-  .gs-section-02 p {
-    font-style: italic;
-  }
+.pretty-text img {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 6px 20px rgba(0,0,0,0.19);
+}
 
-  .gs-section-03 h2 {
-    color: green;
-  }
+.pretty-text img:hover {
+  box-shadow: 0 0 5px rgba(0,140,186,0.5);
+}
 
-  .gs-section-03 p {
-    text-decoration: underline;
-  }
+/* Section-specific styles */
+.gs-section-01 h2 {
+  color: red;
+}
+
+.gs-section-02 h2 {
+  color: blue;
+}
+
+.gs-section-02 p {
+  font-style: italic;
+}
+
+.gs-section-03 h2 {
+  color: green;
+}
+
+.gs-section-03 p {
+  text-decoration: underline;
+}
 </style>
