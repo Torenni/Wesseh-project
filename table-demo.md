@@ -19,7 +19,7 @@ gosling:
     - micky mouse club
     - cries a lot
     - not ryan reynolds
----
+  ---
 
 ![Ryan vs Ryan]({{ site.baseurl }}/assets/img/ryan-v-ryan.jpg){:.demo-img}
 
