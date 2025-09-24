@@ -56,18 +56,16 @@ The instructions above explain how to use Beautiful Jekyll in the easiest way: b
 
 > Note: Beautiful Jekyll was primarily designed to be used as a GitHub theme, so you will not get any support if you use this theme via Ruby gems.
 
-> <style>
-.gs-section-01 h3 {
-  color: red;
-}
+<style>
+.gs-section-01 h3 { color: red; }
+.gs-section-01 p  { font-size: 18px; }
 
-.gs-section-02 h3 {
-  color: blue;
-}
+.gs-section-02 h3 { color: blue; }
+.gs-section-02 p  { font-style: italic; }
 
-.gs-section-03 h3 {
-  color: green;
-}
+.gs-section-03 h3 { color: #008A5A; }
+.gs-section-03 p  { text-decoration: underline; }
 </style>
+
 
  
