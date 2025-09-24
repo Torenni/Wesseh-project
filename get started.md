@@ -24,7 +24,7 @@ Even if you choose to use one of the [advanced installation methods](https://bea
 
 ## The easy way (recommended!)
 
-Getting started is *literally* as easy as 1-2-3 :smile:
+Getting started is *literally* as easy as 1-2-3 😄
 
 Scroll down to see the steps involved, but here is a 30-second video just as a reference as you work through the steps. If you don't already have a [GitHub account](https://github.com), you'll need to sign up.
 
@@ -57,7 +57,9 @@ You'll see the word "repository" used a lot in GitHub - it simply means "project
 
 ### 3. Customize your website settings
 
-Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
+Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  
+The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does.  
+Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
 
 > Note: In the video above, only one setting in the `_config.yml` file is edited, but you should go through the rest of the settings as well.
 
